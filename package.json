@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/manumagalhaes/testing-cicd#readme",
   "dependencies": {
+    "husky": "^6.0.0",
     "jest": "^27.0.4"
   }
 }
