@@ -28,6 +28,9 @@ jobs:
       # - node/install-packages:
       #     pkg-manager: yarn
       - run:
+          name: Run lint
+          command: npx prettier --check .
+      - run:
           name: Run tests
           command: npm test
 
