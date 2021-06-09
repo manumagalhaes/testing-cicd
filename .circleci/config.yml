@@ -28,6 +28,9 @@ jobs:
       # - node/install-packages:
       #     pkg-manager: yarn
       - run:
+          name: Run lint
+          command: npx lint-staged
+      - run:
           name: Run tests
           command: npm test
 
