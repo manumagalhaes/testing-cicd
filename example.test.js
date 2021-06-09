@@ -1,6 +1,6 @@
 describe("test", () => {
   it.each([
-    [1, 2, 3],
+    [1, 2, 5],
     [2, 2, 4],
   ])(
     "should correctly take %d and %d to make %d",
