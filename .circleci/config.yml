@@ -29,7 +29,7 @@ jobs:
       #     pkg-manager: yarn
       - run:
           name: Run lint
-          command: npx lint-staged
+          command: npx prettier --check .
       - run:
           name: Run tests
           command: npm test
